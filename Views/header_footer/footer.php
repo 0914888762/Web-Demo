@@ -17,7 +17,7 @@
                                     <li>
                                         <i class="mdi mdi-map-marker"></i>
                                         <p class="text-white">36 Nguyen Hue - Phu Xuan District</p>
-                                        <p class="text-white">Hue City</p>
+                                        <p class="text-white">HO CHI MINH City</p>
                                     </li>
                                     <li>
                                         <i class="mdi mdi-phone"></i>
