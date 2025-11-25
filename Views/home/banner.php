@@ -1,0 +1,28 @@
+<div class="main-slider-one main-slider-two slider-area">
+    <div id="wrapper">
+        <div class="slider-wrapper">
+            <div id="mainSlider" class="nivoSlider">
+                <?php $i=2; foreach ($data_banner as  $value) {  ?>
+                <img src="public/<?=$value['HinhAnh']?>" alt="main slider" title="#htmlcaption"/>
+                <?php } ?>
+            </div>
+            <div id="htmlcaption" class="nivo-html-caption slider-caption">
+                <div class="container">
+                    <div class="slider-left slider-right">
+                        <div class="slide-text animated zoomInUp">
+                            <h3 class="text-white">New Product</h3>
+                            <hr>
+                            <h1 class="text-white">The Technology Event 2025</h1>
+                        </div>
+                        <div class="animated slider-btn fadeInUpBig">
+                            <div style="display: flex; gap: 15px;">
+                                <a class="shop-btn" href="index.php?act=shop">Learn more</a>
+                                <a class="shop-btn" href="index.php?act=shop">Buy</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>							
+    </div>
+</div>
