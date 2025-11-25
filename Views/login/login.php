@@ -22,7 +22,7 @@
 			<div class="col-sm-6">
 				<div class="main-input padding60" id="dangnhap">
 					<div class="log-title">
-						<h3><strong>Khách hàng đã đăng ký</strong></h3>
+						<h3><strong>Customer đã đăng ký</strong></h3>
 					</div>
 					<div class="login-text">
 						<div class="custom-input">
