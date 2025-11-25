@@ -31,7 +31,7 @@
 				<div class="col-sm-12 col-md-6">
 					<div class="about-text">
 						<div class="about-author">
-							<h4>Welcome to TechShop – your trusted destination for all your technology needs!
+							<h4>Welcome to MobileCity Shop – your trusted destination for all your technology needs!
 
 							</h4>
 						</div>
