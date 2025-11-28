@@ -44,7 +44,7 @@
             <div class="row">
                 <div class="col-sm-2">
                     <div class="logo">
-                        <a href="?act=home"><img src="public/img/logo.png" alt="Sellshop" /></a>
+                        <a href="?act=home"><img src="Public\img\LogoTechShop.jpg" alt="Logoshop" /></a>
                     </div>
                 </div>
                 <div class="col-sm-8">

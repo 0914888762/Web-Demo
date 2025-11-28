@@ -1,6 +1,6 @@
 <?php
 session_start();
-$mod = isset($_GET['act']) ? $_GET['act'] : "home";
+$mod = isset($_GET['act']) ? $_GET['act'] : "home"; //khai báo biến if 
 switch ($mod) {
     case 'home':
         require_once('Controllers/HomeController.php');
