@@ -35,7 +35,6 @@
 							<form action="?act=taikhoan&xuli=dangnhap" method="post" id="form1">
 								<input type="text" name="taikhoan" placeholder="Tài khoản" />
 								<input type="password" name="matkhau" placeholder="Mật khẩu" />
-								<a class="forget" href="#">Quên mật khẩu?</a>
 								<div class="submit-text">
 									<button name="submit" type="submit" form="form1">Đăng nhập</button>
 								</div>
