@@ -22,21 +22,21 @@
 			<div class="col-sm-6">
 				<div class="main-input padding60" id="dangnhap">
 					<div class="log-title">
-						<h3><strong>Customer đã đăng ký</strong></h3>
+						<h3><strong>Registered customer</strong></h3>
 					</div>
 					<div class="login-text">
 						<div class="custom-input">
-							<p>Nếu bạn đã có tài khoản, vui lòng đăng nhập!</p>
+							<p>Please sign in to access your account</p>
 							<?php if (isset($_COOKIE['msg1'])) { ?>
 								<div class="alert alert-success">
-									<strong>Thông báo</strong> <?= $_COOKIE['msg1'] ?>
+									<strong>Announcement</strong> <?= $_COOKIE['msg1'] ?>
 								</div>
 							<?php } ?>
 							<form action="?act=taikhoan&xuli=dangnhap" method="post" id="form1">
 								<input type="text" name="taikhoan" placeholder="Tài khoản" />
 								<input type="password" name="matkhau" placeholder="Mật khẩu" />
 								<div class="submit-text">
-									<button name="submit" type="submit" form="form1">Đăng nhập</button>
+									<button name="submit" type="submit" form="form1">Login</button>
 								</div>
 							</form>
 						</div>
@@ -46,11 +46,11 @@
 			<div class="col-sm-6">
 				<div class="main-input padding60 new-customer" id="dangky">
 					<div class="log-title">
-						<h3><strong>Khách hàng mới</strong></h3>
+						<h3><strong>New customer</strong></h3>
 					</div>
 					<?php if (isset($_COOKIE['msg'])) { ?>
 						<div class="alert alert-success">
-							<strong>Thông báo</strong> <?= $_COOKIE['msg'] ?>
+							<strong>Announcement</strong> <?= $_COOKIE['msg'] ?>
 						</div>
 					<?php } ?>
 					<div class="custom-input">
@@ -63,7 +63,7 @@
 							<input type="password" name="MatKhau" placeholder="Mật khẩu" minlength="6" required />
 							<input type="password" name="check_password" placeholder="Xác nhận mật khẩu" minlength="6" required />
 							<div class="submit-text coupon">
-								<button type="submit" form="form2">Đăng ký</button>
+								<button type="submit" form="form2">Register</button>
 							</div>
 						</form>
 					</div>
